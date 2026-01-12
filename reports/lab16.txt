@@ -1,0 +1,47 @@
+  205  cd ..
+  206  mkdir vaja16
+  207  cd vaja16
+  208  sudo apt update
+  209  clear
+  210  sudo apt update\nsudo apt install gnupg
+  211  clear
+  212  sudo apt update
+  213  reset
+  214  sudo apt update
+  215  sudo apt install gnupg
+  216  echo "API_KEY=super-secret-key-123\nDB_PASSWORD=VeryStrongPassword" > secrets.env
+  217  ls
+  218  gpg -c secrets.env
+  219  secrets.env.gpg
+  220  ls
+  221  rm secrets.env
+  222  gpg secrets.env.gpg
+  223  gpg -d secrets.env.gpg
+  224  ls
+  225  gpg --encrypt --recipient student@example.com secrets.env
+  226  ls
+  227  rm secrets2.env
+  228  gpg --encrypt --recipient student@example.com secrets2.env
+  229  gpg --encrypt --recipient student@example.com secrets.env
+  230  source secrets.env\necho $API_KEY
+  231  unset API_KEY\nunset DB_PASSWORD
+  232  gpg secrets.env.gpg
+  233  ls
+  234  mv s2 s2.txt
+  235  ls
+  236  cat s2
+  237  cat s2.txt
+--------------------------------------------------------
+Zakaj skrivnosti ne sodijo v izvorno kodo?
+repo se klonira, forka, pošilja sodelavcem,tako da ostanejo sledi
+
+Kakšna je razlika med simetričnim in asimetričnim šifriranjem skrivnosti?
+Simetrično šifriranje: isti skrivni ključ se uporablja za šifriranje in dešifriranje  (hitro, zahteva varen prenos ključa).
+Asimetrično šifriranje: uporablja par ključev (javni/zasebni). Javni ključ šifrira, zasebni dešifrir posledićno je izmenjava varnejša in počasnejša.
+
+Kaj se zgodi, če izgubimo zasebni ključ?
+Če izgubimo zasebni ključ, podatkov ne moremo več dešifrirati oziroma dokazovati identitete. Velikokrat tega ne moremo popraviti.
+
+Kako bi to rešili v večjem podjetju?
+Skrivnosti bi shranil na varno mesto (npr. disk, ki ni na omrežju, pod pravo zaščito), z omejenim dostopom. S tem bi bilo možno tudi obnoviti izgubljene podatke (več kopij ali pa iz samega trdega diska).
+

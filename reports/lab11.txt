@@ -1,0 +1,8 @@
+ 151  cd vaja11
+  152  ssh bandit0@bandit.labs.overthewire.org -p 2220
+  153  ssh bandit1@bandit.labs.overthewire.org -p 2220
+  154  ssh bandit2@bandit.labs.overthewire.org -p 2220
+  155  ssh bandit3@bandit.labs.overthewire.org -p 2220
+  156  ssh bandit4@bandit.labs.overthewire.org -p 2220
+  157  ssh bandit5@bandit.labs.overthewire.org -p 2220
+  158  history >> naloga11.txt

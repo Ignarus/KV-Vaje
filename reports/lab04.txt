@@ -1,0 +1,82 @@
+pic2map in exif tools nista našli gps podatkov
+naprava Xioami - redmi note 7
+2020-06-28
+09:17:49
+horizontalna oreientacija
+----------------------------------
+ExifTool Version Number	12.25
+File Name	php5eh3j3
+Directory	/tmp
+File Size	8.7 MiB
+File Modification Date/Time	2026:01:04 18:37:29+00:00
+File Access Date/Time	2026:01:04 18:37:27+00:00
+File Inode Change Date/Time	2026:01:04 18:37:29+00:00
+File Permissions	-rw-------
+File Type	JPEG
+File Type Extension	jpg
+MIME Type	image/jpeg
+Exif Byte Order	Big-endian (Motorola, MM)
+Camera Model Name	Redmi Note 7
+Software	lavender-user 9 PKQ1.180904.001 V11.0.8.0.PFGEUXM release-keys
+Orientation	Horizontal (normal)
+Modify Date	2020:06:28 09:17:49
+Y Cb Cr Positioning	Centered
+ISO	320
+Exposure Program	Not Defined
+F Number	1.8
+Exposure Time	1/4187
+Sensing Method	Unknown (0)
+Sub Sec Time Digitized	659948
+Sub Sec Time Original	659948
+Sub Sec Time	659948
+Focal Length	4.7 mm
+Flash	Off, Did not fire
+Metering Mode	Center-weighted average
+Scene Capture Type	Standard
+Interoperability Index	R98 - DCF basic file (sRGB)
+Interoperability Version	0100
+Focal Length In 35mm Format	0 mm
+Create Date	2020:06:28 09:17:49
+Exif Image Height	3000
+White Balance	Auto
+Date/Time Original	2020:06:28 09:17:49
+Brightness Value	5.21
+Exif Image Width	4000
+Exposure Mode	Auto
+Aperture Value	1.8
+Components Configuration	Y, Cb, Cr, -
+Color Space	sRGB
+Scene Type	Directly photographed
+Shutter Speed Value	1/4185
+Exif Version	0220
+Flashpix Version	0100
+Resolution Unit	inches
+X Resolution	72
+Y Resolution	72
+Make	Xiaomi
+Thumbnail Offset	932
+Thumbnail Length	21007
+Compression	JPEG (old-style)
+Image Width	4000
+Image Height	3000
+Encoding Process	Baseline DCT, Huffman coding
+Bits Per Sample	8
+Color Components	3
+Y Cb Cr Sub Sampling	YCbCr4:2:0 (2 2)
+Aperture	1.8
+Image Size	4000x3000
+Megapixels	12.0
+Shutter Speed	1/4187
+Create Date	2020:06:28 09:17:49.659948
+Date/Time Original	2020:06:28 09:17:49.659948
+Modify Date	2020:06:28 09:17:49.659948
+Thumbnail Image	(Binary data 21007 bytes, use -b option to extract)
+Focal Length	4.7 mm
+Light Value	12.0
+---------------------------------------
+
+Lokacije ni prepoznalo, je pa bilo v triglavskem narodnem parku, na poti do triglavskih jezer.
+Slika je bila posneta 28.6.2020
+Meta podatki so prilepljeni gor
+Presenetilo me je zaznavanje orentacije in shutterspeeda
+Priporočal, bi da določene osebne podatke (kot lokacije) zbriše posebaj če se gre za slike sebe ali svoje okolice saj je lahko zelo nevarno.

@@ -1,0 +1,12 @@
+Kako bi razložili razliko med nešifriranim (npr. SMTP brez TLS na portu 1025) in šifriranim sporočilom (SMTP s STARTTLS na portu 587)? Katere podatke lahko napadalec vidi v prvem primeru in katere v drugem?
+Brest TLS vidimo, vsebino epošte, oba naslova, zadevo, upoabnika in geslo. Nevarno je keer ga lahko ponaredimo ali spreminjamo vebino
+Z TLS vidimo ip odjemalca in strežnika, da pošiljka komunicira s SMTP , kdaj ceelo domeno strežnika. Vse od prej nsštetega pa ne vidimo.
+
+Zakaj je preverjanje fingerprinta pri PGP za preprečitev man-in-the-middle napada?
+saj z njim preverimo ali je to prava oseba in  da nam napadalec ne more podatkniti svojega ključa,
+Kdaj bi uporabili PGP in kdaj Signal?
+PGP ne želiomo biti vezani na enega ponudnika, podpisovanje dokumentov, arhiviriranje, akademsko ali pravno okolje
+Signal takojšne spročilo, minimalno nastavitem, komuniciramo z mobilnimi napravami, pomebna zaščita metapodatkov
+Ali menite, da bi moralo biti end-to-end šifriranje privzeto v vseh komunikacijskih aplikacijah? Utemeljite odgovor z vidika varnosti, zasebnosti in uporabniške izkušnje.
+za prva dva ja, ker preprečuje prisluškovanje, drži se gdpr ki je bil ustvarjen za varnost podaktov oz. zasebnosti in s tem ščiti nas in naša podjetja.
+Vidika izkušnje, bi se lahko prepriali, saj preprostost in kako dobro je izvedeno in če povzroča frustracije. Vendar, bi v vsakem primeru rekel da, ker varnost je ena najboljših izkušenj iz vidika uporabnika, ki uprablja tvojo aplikacijo. Posebej če je ta dobro izvedena.

@@ -1,0 +1,34 @@
+    1  whoami
+    2  pwd
+    3  cd/home/kibernetika
+    4  cd /home/kibernetika
+    5  mkdir vaje01
+    6  mkdir test00
+    7  ls -l
+    8  rm test00
+    9  rmdir test00
+   10  rmdir vaje01
+   11  mkdir linux-vaja
+   12  cd linux-vaja
+   13  touch opis.txt
+   14  echo "Filip" > opis.txt
+   15  mkdir testni
+   16  mv opis testni/
+   17  mv opis.txt testni/
+   18  ls
+   19  ls testni
+   20  mv opis.txt moj_profil.txt
+   21  mv testni/opis.txt testni/moj_profil.txt
+   22  ls testni
+   23  cp testni/moj_profil.txt moj_profil.txt
+   24  ls
+   25  ls -lh
+   26  chmod 644 moj_profil.txt
+   27  ls -lh
+   28  chmod 444 moj_profil.txt
+   29  ls -lh
+   30  whoami
+   31  kibernetika -a
+   32  uname -a
+   33  df -h
+   34  top

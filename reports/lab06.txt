@@ -1,0 +1,27 @@
+  114  mkdir vaja06
+  115  cd vaja06
+  116  wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+  117  touch gesla.txt
+  118  nano gesla.txt
+  119  n=1; while read pass; do echo "user$n:$(echo -n "$pass" | md5sum | awk '{print $1}')"; n=$((n+1)); done < gesla.txt > hashes.txt
+  120  john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+  121  john --format=raw-md5 --wordlist=/home/kali/Desktop/Kibernetika/vaja06~  hashes.txt
+  122  john --format=raw-md5 --wordlist=rockzou.txt  hashes.txt
+  123  john --format=raw-md5 --wordlist=rockyou.txt  hashes.txt
+  124  john --show --format=raw-md5 hashes.txt
+Zabeležite, katera gesla so bila najdena in kako hitro.
+drugih gesel ni nasel ker so bolj unikatna in koplesnejša
+hrkati je tudi sam rockyou.txt omejen nabor gesel
+Katerega močnega gesla program ni našel? Zakaj? (zgoraj odgovjeno)
+geslo15 (<- za tega sem presnečen da ni bil našen)
+FisLet1
+NiGesla!1 (<- za tega sem presnečen da ni bil našen)
+
+Kako se povečuje ocena varnosti, ko dodajate dolžino?
+več možnih kombinacij in s s tem se posepeši potrebni čas za brutforacnje in je težje uganiti samo geslo
+Kako vplivajo posebni znaki na oceno?
+Podobno kot dožina s tem, da povečamo možnih kominacij a eno števko ne pa med vsemi števkami, kar se opazno pozna na stevilu kombinacij
+Kako se ocenjuje “passphrase” v primerjavi s klasičnim geslom?
+Je večinoma daljša in manj predvidena
+Katero geslo bi priporočili za vsakodnevno uporabo in zakaj?
+Ne morem, saj takoj ko ga priporočim ni več varno in ni smiselno. Če pa mislite password vs phasshrase bi pa rekel password z neko logiko šifriranja (npr. vsak 3 znak besede podboji ali naredi velikega). Tako je še vedno lahko za zapomnit vendar težje brut force-at ali pa izvlečt izven osebe.

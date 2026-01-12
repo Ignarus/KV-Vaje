@@ -1,0 +1,18 @@
+Kakšen je dejanski IP pošiljatelja?
+192.64.236.44
+Ali se domena pošiljatelja ujema z naslovom v “From”?
+Ja
+Iz katere države približno izvira sporočilo?
+USA - Tennessee - Nashville
+So v headerju vidni znaki preusmeritev preko več strežnikov?
+ne
+So prisotne napake SPF/DKIM/DMARC?
+Ne
+
+Kako hitro opazite sumljivost e-poštnega sporočila?
+Za zelo dobra spročila, posebi zaradi disleksije bi si mogoče rabil vzeti več časa in energije katerega vedno nimamo.
+Slabša dokaj hitro.
+Bi z zagotovostjo lahko vsako sporočilo prepoznali kot nevarno brez headerja?
+Ne, zaradi njihove natančnosti n potrebe po času in energiji
+Kaj bi svetovali nekomu, ki je nov uporabnik elektronske pošte glede nevarnosti, ki nanj prežijo iz vidika socialnega inženiringa?
+Filtriranje pošte, če nisi siguren raje ne klikni. Od nepotrebnih stvari se odjavi (obveščevanja)
